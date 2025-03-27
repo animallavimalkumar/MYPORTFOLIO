@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(270deg, #ff7e5f, #feb47b);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+}
+
+section {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+}
+
+footer {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+}
